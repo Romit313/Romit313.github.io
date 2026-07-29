@@ -167,15 +167,26 @@ function companyInitials(name) {
     .toUpperCase();
 }
 
+// Ordered logo candidates: a committed local asset first, then the remote CDN,
+// then nothing (the caller falls back to initials).
+function companyLogoSources(e) {
+  const sources = [];
+  if (e.logo) sources.push(e.logo);
+  if (e.logoDomain) sources.push(`https://logo.clearbit.com/${e.logoDomain}?size=80`);
+  return sources;
+}
+
 function companyMarkHTML(e) {
   const initials = companyInitials(e.company);
-  if (e.logoDomain) {
-    return `<div class="company-logo grid h-10 w-10 shrink-0 place-items-center overflow-hidden rounded-md hairline bg-white" data-initials="${initials}">
-      <img src="https://logo.clearbit.com/${e.logoDomain}?size=80" alt="${e.company} logo"
+  const [first, ...fallbacks] = companyLogoSources(e);
+  if (!first) {
+    return `<div class="grid h-10 w-10 shrink-0 place-items-center rounded-md hairline bg-white text-xs font-mono font-bold text-text-mid">${initials}</div>`;
+  }
+  const rest = JSON.stringify(fallbacks).replace(/"/g, '&quot;');
+  return `<div class="company-logo grid h-10 w-10 shrink-0 place-items-center overflow-hidden rounded-md hairline bg-white" data-initials="${initials}">
+      <img src="${first}" alt="${e.company} logo" data-fallbacks="${rest}"
            class="h-full w-full object-contain p-1.5" />
     </div>`;
-  }
-  return `<div class="grid h-10 w-10 shrink-0 place-items-center rounded-md hairline bg-white text-xs font-mono font-bold text-text-mid">${initials}</div>`;
 }
 
 export function renderExperience(experience) {
@@ -207,9 +218,21 @@ export function renderExperience(experience) {
     )
     .join('');
 
-  // Graceful Clearbit fallback: swap failed images for the initials block.
+  // Walk the fallback chain on load failure, then degrade to the initials block.
   $('#experienceTimeline').querySelectorAll('.company-logo img').forEach((img) => {
     img.addEventListener('error', () => {
+      let queue = [];
+      try {
+        queue = JSON.parse(img.dataset.fallbacks || '[]');
+      } catch {
+        queue = [];
+      }
+      const next = queue.shift();
+      if (next) {
+        img.dataset.fallbacks = JSON.stringify(queue);
+        img.src = next;
+        return;
+      }
       const parent = img.parentElement;
       const initials = parent?.dataset.initials || '?';
       if (parent) {
@@ -222,7 +245,6 @@ export function renderExperience(experience) {
 
 export function renderEducation(education) {
   const eduItems = education.education ?? education.items ?? education ?? [];
-  const certItems = education.certifications ?? [];
 
   $('#educationList').innerHTML = eduItems
     .map(
@@ -234,14 +256,6 @@ export function renderEducation(education) {
         </div>
         <p class="mt-1 text-sm text-accent-2">${e.school ?? e.institution ?? ''}</p>
       </li>`,
-    )
-    .join('');
-
-  $('#certGrid').innerHTML = certItems
-    .map(
-      (c) => `<span class="rounded-full hairline bg-surface/60 px-3 py-1.5 text-sm text-text-mid">
-        ${c.name ?? c.title ?? c}
-      </span>`,
     )
     .join('');
 }

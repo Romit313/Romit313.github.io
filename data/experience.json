@@ -6,7 +6,7 @@
       "company": "Infinite Computer Solutions",
       "period": "Jun. 2025 – Aug. 2025",
       "location": "",
-      "logoDomain": "",
+      "logoDomain": "infinite.com",
       "description": "",
       "responsibilities": [
         "Achieved $15K annual savings by diagnosing payment reporting anomalies and automating Python workflows for finance teams",
@@ -14,7 +14,8 @@
         "Increased reporting accuracy 25% by implementing SQL-driven data quality checks with automated exception monitoring frameworks",
         "Streamlined reporting workload 40% by creating Power BI and Excel dashboards with reusable DAX calculations for stakeholders",
         "Accelerated reporting cycles 60% by automating executive summaries from KPI datasets through Python and generative AI workflows"
-      ]
+      ],
+      "logo": "assets/images/logos/companies/infinite-computer-solutions.png"
     },
     {
       "title": "Data Analyst - Intern",
@@ -29,19 +30,21 @@
         "Identified high-impact business opportunities through exploratory analysis of customer behavior, pricing, and sales trends",
         "Cut manual review time 20% by building self-service Tableau dashboards with 20+ visualizations for stakeholder use",
         "Enhanced data accuracy 30% by tracing reporting discrepancies to upstream data processes and implementing validation workflows"
-      ]
+      ],
+      "logo": "assets/images/logos/companies/aum-tradewell.png"
     },
     {
       "title": "Teaching Assistant - Physics",
       "company": "The University of Texas at Dallas",
       "period": "Jan. 2026 – May 2026",
       "location": "",
-      "logoDomain": "",
+      "logoDomain": "utdallas.edu",
       "description": "",
       "responsibilities": [
         "Identified recurring patterns in homework performance across 120 students, flagging common misconceptions to sharpen focus areas",
         "Tracked attendance and engagement trends across lab sections to help the professor identify students needing additional support"
-      ]
+      ],
+      "logo": "assets/images/logos/companies/ut-dallas.svg"
     }
   ]
 }

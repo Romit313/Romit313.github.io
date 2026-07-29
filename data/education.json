@@ -1,6 +1,5 @@
 {
-  "sectionTitle": "Education & Certifications",
-  "certificationsTitle": "Certifications",
+  "sectionTitle": "Education",
   "education": [
     {
       "degree": "Master of Science in Business Analytics and Artificial Intelligence",
@@ -18,6 +17,5 @@
       "details": "GPA: 3.58",
       "description": "GPA: 3.58"
     }
-  ],
-  "certifications": []
+  ]
 }
