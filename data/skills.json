@@ -1,0 +1,59 @@
+{
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "SQL",
+        "Python",
+        "R"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "DAX",
+        "Power Query"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "Git",
+        "Jupyter Notebook",
+        "Power BI",
+        "Tableau",
+        "MS Excel",
+        "Salesforce",
+        "Snowflake",
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "Data Cleaning",
+        "A/B Testing",
+        "Hypothesis Testing",
+        "Time Series Forecasting",
+        "Customer Segmentation",
+        "Cohort Analysis",
+        "Predictive Modeling",
+        "Machine Learning",
+        "Random Forest",
+        "Gradient Boosting",
+        "K-Means",
+        "KPI Design",
+        "Data Storytelling"
+      ]
+    }
+  ]
+}

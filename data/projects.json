@@ -1,0 +1,263 @@
+{
+  "sectionTitle": "Featured Projects",
+  "projects": [
+    {
+      "title": "A Safety Intelligence Dashboard for SEG Using OSHA Injury Narratives & NLP Analysis",
+      "description": "Built an NLP pipeline using spaCy and regex-based entity extraction to parse 40,000+ OSHA injury narratives, then developed Power BI dashboards surfacing injury trend patterns, enabling an estimated $10K reduction in workplace incident costs",
+      "technologies": [
+        "Python",
+        "spaCy",
+        "regex",
+        "Power BI"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "",
+      "demo": ""
+    },
+    {
+      "title": "Smart Lending: ML-Based Credit Risk Modeling",
+      "description": "Trained and benchmarked XGBoost and Neural Network credit risk models on 80,000+ financial records, evaluated via precision, recall, and F1-score, reducing projected loan defaults by 10%",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "NumPy",
+        "XGBoost",
+        "Neural Network"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "",
+      "demo": ""
+    },
+    {
+      "title": "Route Guard AI: Agentic Supply Chain Risk Analyzer",
+      "description": "Engineered a full-stack agentic system with a 3-stage pipeline (disruption identification, risk scoring, route recommendation) weighting geopolitical, weather, and logistics factors, accelerating risk assessment by 60%",
+      "technologies": [
+        "FastAPI",
+        "React 18",
+        "Llama 3",
+        "Ollama"
+      ],
+      "icon": "fas fa-globe",
+      "github": "",
+      "demo": ""
+    },
+    {
+      "title": "knn-python-implementation",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/knn-python-implementation",
+      "demo": "https://github.com/Romit313/knn-python-implementation"
+    },
+    {
+      "title": "etl-validation-with-python-scripting",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/etl-validation-with-python-scripting",
+      "demo": "https://github.com/Romit313/etl-validation-with-python-scripting"
+    },
+    {
+      "title": "brain-mapping-eeg-classification",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/Romit313/brain-mapping-eeg-classification",
+      "demo": "https://github.com/Romit313/brain-mapping-eeg-classification"
+    },
+    {
+      "title": "predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "demo": "https://github.com/Romit313/predictive-maintainence-using-data-analysis-and-time-series-forecasting"
+    },
+    {
+      "title": "cohort_analysis",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/cohort_analysis",
+      "demo": "https://github.com/Romit313/cohort_analysis"
+    },
+    {
+      "title": "mutual-fund-analysis-dashboard-python-powerbi",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/Romit313/mutual-fund-analysis-dashboard-python-powerbi",
+      "demo": "https://github.com/Romit313/mutual-fund-analysis-dashboard-python-powerbi"
+    },
+    {
+      "title": "customer-churn-prediction",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/customer-churn-prediction",
+      "demo": "https://github.com/Romit313/customer-churn-prediction"
+    },
+    {
+      "title": "sentiment-analysis-webapp-sagemaker",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/Romit313/sentiment-analysis-webapp-sagemaker",
+      "demo": "https://github.com/Romit313/sentiment-analysis-webapp-sagemaker"
+    },
+    {
+      "title": "extracting-structured-data-from-pdfs",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/extracting-structured-data-from-pdfs",
+      "demo": "https://github.com/Romit313/extracting-structured-data-from-pdfs"
+    },
+    {
+      "title": "RouteGuard-AI-Supply-Chain-Disruption-Analyzer",
+      "description": "AI-powered supply chain risk analyzer that detects real-time shipping disruptions, scores route risks, and recommends alternative logistics strategies. Features a 3-step agentic LLM pipeline built with React, FastAPI, and Meta Llama 3.",
+      "technologies": [
+        "JavaScript",
+        "Python",
+        "CSS",
+        "Shell",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/Romit313/RouteGuard-AI-Supply-Chain-Disruption-Analyzer",
+      "demo": "https://github.com/Romit313/RouteGuard-AI-Supply-Chain-Disruption-Analyzer"
+    },
+    {
+      "title": "FinanceIQ-AI-Expense-Analyzer",
+      "description": "AI-powered personal finance agent built with Streamlit and local Ollama. Upload your expenses, explore your spending dashboard, and chat with an AI agent for insights and recommendations. ",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/FinanceIQ-AI-Expense-Analyzer",
+      "demo": "https://github.com/Romit313/FinanceIQ-AI-Expense-Analyzer"
+    },
+    {
+      "title": "Smart-Lending-ML-Based-Credit-Risk-Modeling",
+      "description": "Developed a credit risk prediction pipeline using XGBoost and Neural Networks. Includes data preprocessing, feature engineering, model training, hyperparameter tuning, and evaluation on a large-scale financial dataset.",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/Smart-Lending-ML-Based-Credit-Risk-Modeling",
+      "demo": "https://github.com/Romit313/Smart-Lending-ML-Based-Credit-Risk-Modeling"
+    },
+    {
+      "title": "Tech-Tsunami-Career-Tracker-Full-Stack-AI-Powered-Learning-Roadmap",
+      "description": "Full-stack career roadmap generator using FastAPI, React, and MCP. Build personalized tech learning roadmaps with live web search, offline LLM skill extraction, and persistent progress tracking.",
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/Romit313/Tech-Tsunami-Career-Tracker-Full-Stack-AI-Powered-Learning-Roadmap",
+      "demo": "https://github.com/Romit313/Tech-Tsunami-Career-Tracker-Full-Stack-AI-Powered-Learning-Roadmap"
+    },
+    {
+      "title": "Culinary-Intelligence-A-Retrieval-Augmented-Generation-Chatbot-for-Context-Aware-Recipe-Discovery",
+      "description": "A Retrieval-Augmented Generation (RAG) chatbot that recommends recipes based on user queries using FAISS vector search, Sentence Transformers embeddings, and a locally running LLaMA model via Ollama.",
+      "technologies": [
+        "JavaScript",
+        "Python",
+        "CSS",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "github": "https://github.com/Romit313/Culinary-Intelligence-A-Retrieval-Augmented-Generation-Chatbot-for-Context-Aware-Recipe-Discovery",
+      "demo": "https://github.com/Romit313/Culinary-Intelligence-A-Retrieval-Augmented-Generation-Chatbot-for-Context-Aware-Recipe-Discovery"
+    },
+    {
+      "title": "IBM-Data-Science-Capstone-Project",
+      "description": "This project predicts SpaceX Falcon 9 first-stage landing success using real launch data, covering data collection, cleaning, EDA, interactive visualization, and machine learning to identify factors influencing successful landings.",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/IBM-Data-Science-Capstone-Project",
+      "demo": "https://github.com/Romit313/IBM-Data-Science-Capstone-Project"
+    },
+    {
+      "title": "A-Safety-Intelligence-Dashboard-for-SEG-Using-OSHA-Injury-Narratives-NLP-Analysis",
+      "description": "This project uses NLP and predictive modeling to analyze OSHA injury narratives and machine-related safety data. The goal is to predict hand injuries and visualize safety trends. It includes Python scripts for data preprocessing and NLP analysis, along with an interactive Power BI dashboard for insights.",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/A-Safety-Intelligence-Dashboard-for-SEG-Using-OSHA-Injury-Narratives-NLP-Analysis",
+      "demo": "https://github.com/Romit313/A-Safety-Intelligence-Dashboard-for-SEG-Using-OSHA-Injury-Narratives-NLP-Analysis"
+    },
+    {
+      "title": "Personality-Classification-System",
+      "description": "This project creates a system that classifies users based on the Big Five Personality Traits, aiding targeted ads and personality-based recruitment. It analyzes how traits influence leadership, communication, and stress management.",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/Personality-Classification-System",
+      "demo": "https://github.com/Romit313/Personality-Classification-System"
+    },
+    {
+      "title": "Car-Dealership-Analytics-and-Prediction-Dashboard",
+      "description": "This interactive dashboard analyzes car dealership data to predict prices, segment customers, and optimize inventory. Built with R, Python, and Streamlit, it provides actionable insights on pricing strategies and customer preferences. Key features include dynamic filters, clustering visualizations, and smart inventory recommendations.",
+      "technologies": [
+        "R"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/Car-Dealership-Analytics-and-Prediction-Dashboard",
+      "demo": "https://github.com/Romit313/Car-Dealership-Analytics-and-Prediction-Dashboard"
+    },
+    {
+      "title": "Analyzing-Stock-and-Revenue-Data-",
+      "description": "This is a analysis of historical stock and revenue data of Tesla and GameStop",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/Analyzing-Stock-and-Revenue-Data-",
+      "demo": "https://github.com/Romit313/Analyzing-Stock-and-Revenue-Data-"
+    },
+    {
+      "title": "network-intrusion-detection-using-machine-learning",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/Romit313/network-intrusion-detection-using-machine-learning",
+      "demo": "https://github.com/Romit313/network-intrusion-detection-using-machine-learning"
+    }
+  ]
+}

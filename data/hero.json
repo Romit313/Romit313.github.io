@@ -1,0 +1,48 @@
+{
+  "eyebrow": "// data and business analyst",
+  "greeting": "Hi, I'm",
+  "name": "ROMIT",
+  "surnameGradient": "JAIN",
+  "title": "Data and Business Analyst",
+  "rotatingSubtitles": [
+    "Data and Business Analyst",
+    "Data Cleaning",
+    "A/B Testing"
+  ],
+  "summary": "Data and Business Analyst with 3+ years of experience across operations, marketing, finance, and revenue reporting, building the data infrastructure businesses rely on and turning data into decisions. Designed Snowflake data solutions, SQL/Python ETL workflows, and Power BI/Tableau dashboards that reduced manual reporting effort by 40% and improved data quality by 35%, while delivering $20K+ in cost savings and revenue growth through analytics initiatives.",
+  "avatarUrl": "",
+  "openToWork": true,
+  "cta": {
+    "buttons": [
+      {
+        "text": "View work",
+        "href": "#projects",
+        "type": "primary",
+        "external": false,
+        "icon": "fas fa-arrow-right"
+      },
+      {
+        "text": "Get in touch",
+        "href": "#contact",
+        "type": "secondary",
+        "external": false,
+        "icon": "fas fa-paper-plane"
+      },
+      {
+        "text": "Copy email",
+        "href": "#",
+        "type": "ghost",
+        "external": false,
+        "icon": "fas fa-envelope",
+        "action": "copy-email"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:romitt07jain@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

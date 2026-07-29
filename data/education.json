@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Master of Science in Business Analytics and Artificial Intelligence",
+      "school": "The University of Texas at Dallas",
+      "institution": "The University of Texas at Dallas",
+      "period": "Aug. 2024 – May 2026",
+      "details": "GPA: 3.76",
+      "description": "GPA: 3.76"
+    },
+    {
+      "degree": "Bachelor of Technology in Electronics Engineering",
+      "school": "K. J. Somaiya College of Engineering",
+      "institution": "K. J. Somaiya College of Engineering",
+      "period": "Sep. 2020 – May 2024",
+      "details": "GPA: 3.58",
+      "description": "GPA: 3.58"
+    }
+  ],
+  "certifications": []
+}

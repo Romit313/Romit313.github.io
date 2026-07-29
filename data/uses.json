@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "label": "Languages",
+      "value": "SQL, Python, R",
+      "icon": "fas fa-code"
+    },
+    {
+      "label": "Frameworks",
+      "value": "Pandas, NumPy, Scikit-learn",
+      "icon": "fas fa-toolbox"
+    },
+    {
+      "label": "Tools",
+      "value": "Git, Jupyter Notebook, Power BI",
+      "icon": "fas fa-wrench"
+    },
+    {
+      "label": "Focus",
+      "value": "Data Cleaning, A/B Testing",
+      "icon": "fas fa-laptop-code"
+    }
+  ]
+}

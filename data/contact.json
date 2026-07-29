@@ -1,0 +1,54 @@
+{
+  "sectionTitle": "Get In Touch",
+  "contactInfo": [
+    {
+      "type": "email",
+      "icon": "fas fa-envelope",
+      "label": "Email",
+      "value": "romitt07jain@gmail.com",
+      "href": "mailto:romitt07jain@gmail.com"
+    },
+    {
+      "type": "phone",
+      "icon": "fas fa-phone",
+      "label": "Phone",
+      "value": "214-899-6007",
+      "href": "tel:2148996007"
+    },
+    {
+      "type": "location",
+      "icon": "fas fa-map-marker-alt",
+      "label": "Location",
+      "value": "Dallas, TX",
+      "href": null
+    }
+  ],
+  "form": {
+    "fields": [
+      {
+        "id": "name",
+        "type": "text",
+        "placeholder": "Your Name",
+        "required": true
+      },
+      {
+        "id": "email",
+        "type": "email",
+        "placeholder": "Your Email",
+        "required": true
+      },
+      {
+        "id": "message",
+        "type": "textarea",
+        "placeholder": "Your Message",
+        "rows": 5,
+        "required": true
+      }
+    ],
+    "submitButton": {
+      "text": "Send Message",
+      "type": "primary"
+    },
+    "successMessage": "Thank you for your message!"
+  }
+}
